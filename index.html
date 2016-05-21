@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>adivina</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+		   <h1>SMASH FACES</h1>
+		   <p>Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras</p>
+		   <div class="row">
+			    <div class="col-md-4 col-md-push-4" align="center">
+				     <div id="ban2">
+				      <br>
+				      <label for="ok">Respuesta</label>
+				      <input type="text" class="form-control" id="res"><br>
+				      <button class="btn btn-primary btn-lg" id="comprobar">Comprobar</button>
+				      <div class="btn btn-warning btn-lg" id="reset">SIGUIENTE
+				      </div>
+			    	</div>
+			    </div>
+
+			    <div class="col-md-4 col-md-pull-4 " align="center">
+			    	<div id="ban1"></div>
+			 	</div>
+
+				<div class="col-md-4" align="center">
+					<div id="ban3">
+					    <label for="ok">Aciertos</label>
+					    <input type="text" id="ok">
+					    <br>
+					    <label for="mal">Errores</label>
+					    <input type="text" id="mal">
+					</div>
+				</div>
+			 	<br>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/noty.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
+
+
+
